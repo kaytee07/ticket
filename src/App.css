@@ -2,37 +2,155 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bet-type{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.time_date_code{
+  display: flex;
+  flex-direction: column;
+}
+.bet_slip{
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.total_amount{
+  display: flex;
+  flex-direction: column;
+}
+
+.tdc{
+  display: flex;
+  justify-content: left;
+}
+
+.ta{
+  display: flex;
+  justify-content: left;
+}
+
+.bs{
+  display: flex;
+  justify-content: left;
+}
+
+.headers{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.h{
+  display: flex;
+  justify-content: left;
+}
+
+.add_button{
+  display: flex;
+  justify-content: left;
+}
+
+.blk{
+  height: 2px;
+  background-color: black;
+}
+
+.info{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.ppo{
+  display: flex;
+}
+
+.time_of_ticket
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+div h2.header{
+  font-size: 3em;
+  margin: 2px 0px;
+  letter-spacing: 16px;
+}
+
+div p.base{
+  margin: 0px 0px;
+}
+
+div.matches{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+div.teams_playing{
+  display: flex;
+  height: 31px;
+  margin-top: 10px;
+}
+
+div.ticket{
+  width: 298px;
+}
+
+div.teams_playing h5{
+  margin: 0px;
+}
+
+.ab{
+  margin: 0px;
+  margin-right: 5px;
+}
+
+.tot{
+  font-size: 13px;
+}
+
+.payment_ppo{
+  margin: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment_ppo p{
+  margin: 10px 0px;
+}
+.payment_ppo > p {
+  margin-right: 67px;
+}
+
+.possible_profit_ppo{
+  margin: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.possible_profit_ppo p {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.possible_profit_ppo > p{
+  margin-right: 67px;
+}
+
+.odds_ppo {
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
 }
